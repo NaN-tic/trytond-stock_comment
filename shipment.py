@@ -10,30 +10,25 @@ __metaclass__ = PoolMeta
 
 
 class ShipmentIn:
-    "Supplier Shipment"
     __name__ = 'stock.shipment.in'
     comment = fields.Text('Comment')
 
 
 class ShipmentInReturn:
-    "Supplier Return Shipment"
     __name__ = 'stock.shipment.in.return'
     comment = fields.Text('Comment')
 
 
 class ShipmentInternal:
-    "Internal Shipment"
     __name__ = 'stock.shipment.internal'
     comment = fields.Text('Comment')
 
 
 class ShipmentOut:
-    "Customer Shipment"
     __name__ = 'stock.shipment.out'
     comment = fields.Text('Comment')
 
 
 class ShipmentOutReturn:
-    "Customer Return Shipment"
     __name__ = 'stock.shipment.out.return'
     comment = fields.Text('Comment')
