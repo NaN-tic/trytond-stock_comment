@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of stock_comment module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license types. -->
+<data>
+    <xpath expr="/form/notebook/page[@id=&quot;info&quot;]/field[@name=&quot;comment&quot;]"
+            position="after">
+        <separator name="comment_shipment" colspan="6"/>
+        <field name="comment_shipment" colspan="6"/>
+    </xpath>
+</data>

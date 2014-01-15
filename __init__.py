@@ -1,9 +1,9 @@
 #This file is part stock_comment module for Tryton.
 #The COPYRIGHT file at the top level of this repository contains
 #the full copyright notices and license terms.
-
 from trytond.pool import Pool
 from .shipment import *
+from .party import *
 
 
 def register():
@@ -13,4 +13,5 @@ def register():
         ShipmentOut,
         ShipmentOutReturn,
         ShipmentInternal,
+        Party,
         module='stock_comment', type_='model')
