@@ -14,4 +14,5 @@ def register():
         ShipmentOutReturn,
         ShipmentInternal,
         Party,
+        Address,
         module='stock_comment', type_='model')
