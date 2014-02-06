@@ -11,4 +11,4 @@ __metaclass__ = PoolMeta
 
 class Company:
     __name__ = 'company.company'
-    comment_shipment = fields.Text('Shipment Comment')
+    comment_shipment = fields.Text('Shipment Comment', translate=True)
