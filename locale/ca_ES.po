@@ -2,6 +2,10 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
+msgctxt "field:company.company,comment_shipment:"
+msgid "Shipment Comment"
+msgstr "Notes enviament"
+
 msgctxt "field:party.address,comment_shipment:"
 msgid "Shipment Comment"
 msgstr "Notes enviament"
@@ -12,20 +16,32 @@ msgstr "Notes enviament"
 
 msgctxt "field:stock.shipment.in,comment:"
 msgid "Comment"
-msgstr "Comentari"
+msgstr "Nota"
 
 msgctxt "field:stock.shipment.in.return,comment:"
 msgid "Comment"
-msgstr "Comentari"
+msgstr "Nota"
 
 msgctxt "field:stock.shipment.internal,comment:"
 msgid "Comment"
-msgstr "Comentari"
+msgstr "Nota"
 
 msgctxt "field:stock.shipment.out,comment:"
 msgid "Comment"
-msgstr "Comentari"
+msgstr "Nota"
 
 msgctxt "field:stock.shipment.out.return,comment:"
 msgid "Comment"
-msgstr "Comentari"
+msgstr "Nota"
+
+msgctxt "view:stock.shipment.in:"
+msgid "Comments"
+msgstr "Nota"
+
+msgctxt "view:stock.shipment.out.return:"
+msgid "Comments"
+msgstr "Nota"
+
+msgctxt "view:stock.shipment.out:"
+msgid "Comments"
+msgstr "Nota"
