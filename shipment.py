@@ -6,29 +6,33 @@ from trytond.pool import PoolMeta
 
 __all__ = ['ShipmentIn', 'ShipmentInReturn', 'ShipmentInternal', 'ShipmentOut',
     'ShipmentOutReturn']
-__metaclass__ = PoolMeta
 
 
 class ShipmentIn:
+    __metaclass__ = PoolMeta
     __name__ = 'stock.shipment.in'
     comment = fields.Text('Comment')
 
 
 class ShipmentInReturn:
+    __metaclass__ = PoolMeta
     __name__ = 'stock.shipment.in.return'
     comment = fields.Text('Comment')
 
 
 class ShipmentInternal:
+    __metaclass__ = PoolMeta
     __name__ = 'stock.shipment.internal'
     comment = fields.Text('Comment')
 
 
 class ShipmentOut:
+    __metaclass__ = PoolMeta
     __name__ = 'stock.shipment.out'
     comment = fields.Text('Comment')
 
 
 class ShipmentOutReturn:
+    __metaclass__ = PoolMeta
     __name__ = 'stock.shipment.out.return'
     comment = fields.Text('Comment')

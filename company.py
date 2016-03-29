@@ -5,9 +5,9 @@ from trytond.model import fields
 from trytond.pool import PoolMeta
 
 __all__ = ['Company']
-__metaclass__ = PoolMeta
 
 
 class Company:
+    __metaclass__ = PoolMeta
     __name__ = 'company.company'
     comment_shipment = fields.Text('Shipment Comment', translate=True)

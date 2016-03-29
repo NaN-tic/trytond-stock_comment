@@ -6,15 +6,16 @@ from trytond.pool import PoolMeta
 from trytond.pyson import Eval
 
 __all__ = ['Party', 'Address']
-__metaclass__ = PoolMeta
 
 
 class Party:
+    __metaclass__ = PoolMeta
     __name__ = 'party.party'
     comment_shipment = fields.Text('Shipment Comment')
 
 
 class Address:
+    __metaclass__ = PoolMeta
     __name__ = 'party.address'
     comment_shipment = fields.Text('Shipment Comment',
         states={
