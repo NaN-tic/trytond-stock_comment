@@ -8,31 +8,26 @@ __all__ = ['ShipmentIn', 'ShipmentInReturn', 'ShipmentInternal', 'ShipmentOut',
     'ShipmentOutReturn']
 
 
-class ShipmentIn:
-    __metaclass__ = PoolMeta
+class ShipmentIn(metaclass=PoolMeta):
     __name__ = 'stock.shipment.in'
     comment = fields.Text('Comment')
 
 
-class ShipmentInReturn:
-    __metaclass__ = PoolMeta
+class ShipmentInReturn(metaclass=PoolMeta):
     __name__ = 'stock.shipment.in.return'
     comment = fields.Text('Comment')
 
 
-class ShipmentInternal:
-    __metaclass__ = PoolMeta
+class ShipmentInternal(metaclass=PoolMeta):
     __name__ = 'stock.shipment.internal'
     comment = fields.Text('Comment')
 
 
-class ShipmentOut:
-    __metaclass__ = PoolMeta
+class ShipmentOut(metaclass=PoolMeta):
     __name__ = 'stock.shipment.out'
     comment = fields.Text('Comment')
 
 
-class ShipmentOutReturn:
-    __metaclass__ = PoolMeta
+class ShipmentOutReturn(metaclass=PoolMeta):
     __name__ = 'stock.shipment.out.return'
     comment = fields.Text('Comment')

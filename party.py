@@ -8,14 +8,12 @@ from trytond.pyson import Eval
 __all__ = ['Party', 'Address']
 
 
-class Party:
-    __metaclass__ = PoolMeta
+class Party(metaclass=PoolMeta):
     __name__ = 'party.party'
     comment_shipment = fields.Text('Shipment Comment')
 
 
-class Address:
-    __metaclass__ = PoolMeta
+class Address(metaclass=PoolMeta):
     __name__ = 'party.address'
     comment_shipment = fields.Text('Shipment Comment',
         states={
