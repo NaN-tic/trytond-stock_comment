@@ -12,8 +12,8 @@ from configparser import ConfigParser
 MODULE = 'stock_comment'
 PREFIX = 'trytonzz'
 MODULE2PREFIX = {
-    'party_comment': 'trytonspain',
-    }
+    'party_comment':'trytonspain',
+}
 
 
 def read(fname):
@@ -69,12 +69,11 @@ if minor_version % 2:
 
 setup(name='%s_%s' % (PREFIX, MODULE),
     version=version,
-    description='Tryton stock_comment Module',
+    description='Tryton Stock Comment  Module',
     long_description=read('README'),
-    author='Zikzakmedia',
-    author_email='zikzak@zikzakmedia.com',
-    url='https://bitbucket.org/zikzakmedia/',
-    download_url="https://bitbucket.org/zikzakmedia/trytond-%s" % MODULE,
+    author='nan-tic',
+    url='https://bitbucket.org/trytonspain/',
+    download_url='https://bitbucket.org/trytonspain/trytond-%s' % MODULE,
     keywords='',
     package_dir={'trytond.modules.%s' % MODULE: '.'},
     packages=[
