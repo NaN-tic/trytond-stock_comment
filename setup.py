@@ -56,7 +56,7 @@ if minor_version % 2:
 else:
     branch = series
 dependency_links = [
-    ('hg+https://bitbucket.org/trytonspain/'
+    ('git+https://github.com/trytonspain/'
         'trytond-party_comment@%(branch)s'
         '#egg=trytonspain-party_comment-%(series)s' % {
             'branch': branch,
@@ -72,8 +72,8 @@ setup(name='%s_%s' % (PREFIX, MODULE),
     description='Tryton Stock Comment  Module',
     long_description=read('README'),
     author='nan-tic',
-    url='https://bitbucket.org/trytonspain/',
-    download_url='https://bitbucket.org/trytonspain/trytond-%s' % MODULE,
+    url='https://github.com/trytonspain/',
+    download_url='https://github.com/trytonspain/trytond-%s' % MODULE,
     keywords='',
     package_dir={'trytond.modules.%s' % MODULE: '.'},
     packages=[
