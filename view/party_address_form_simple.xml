@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of cimbis module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/field[@name='subdivision']" position="after">
+        <newline/>
+        <separator name="comment_shipment" colspan="6"/>
+        <field name="comment_shipment" colspan="6"/>
+    </xpath>
+</data>
