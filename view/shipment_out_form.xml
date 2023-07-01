@@ -3,7 +3,8 @@
 The COPYRIGHT file at the top level of this repository contains the full copyright notices and license terms. -->
 <data>
     <xpath expr="/form/notebook/page[@id='outgoing_moves']" position="after">
-        <page name="comment">
+        <page name="comment" id="comment">
+            <separator name="comment" colspan="4"/>
             <field name="comment" colspan="4"/>
         </page>
     </xpath>
