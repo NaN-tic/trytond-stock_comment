@@ -18,4 +18,4 @@ class Address(metaclass=PoolMeta):
     comment_shipment = fields.Text('Shipment Comment',
         states={
             'invisible': ~Eval('delivery', True),
-            }, depends=['delivery'])
+            })
